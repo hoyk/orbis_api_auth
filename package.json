@@ -1,0 +1,19 @@
+{
+  "name": "orbis_api",
+  "version": "1.0.0",
+  "description": "Orbis API Auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YK",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "jws": "^4.0.0",
+    "node-jose": "^2.1.1",
+    "uuid": "^9.0.0"
+  },
+  "type": "module"
+}

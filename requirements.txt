@@ -1,0 +1,17 @@
+certifi==2022.12.7
+cffi==1.15.1
+charset-normalizer==2.1.1
+cryptography==39.0.0
+Deprecated==1.2.13
+ecdsa==0.18.0
+idna==3.4
+jwcrypto==1.4.2
+pyasn1==0.4.8
+pycparser==2.21
+python-dotenv==0.21.0
+python-jose==3.3.0
+requests==2.28.1
+rsa==4.9
+six==1.16.0
+urllib3==1.26.13
+wrapt==1.14.1
