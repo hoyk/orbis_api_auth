@@ -42,7 +42,7 @@ if __name__ == '__main__':
         data=json.dumps({'jwe': enc}),
     )
     token = json.loads(r.text)['content']
-    print(token)
+    print(json.loads(r.text))
 
     ## Request
     # r = requests.get(

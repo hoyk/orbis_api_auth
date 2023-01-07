@@ -24,7 +24,7 @@ const key = jws.sign({
   try {
     //// Get token
     const { data } = await axios.get(conf.HOSTNAME + "/c2c/jws.action?jws=" + key);
-    console.log(data.token);
+    console.log(data);
 
     //// Request
     // const res = await axios.get(conf.HOSTNAME + "/api/user/account?account=TRYK0001", {

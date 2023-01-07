@@ -25,7 +25,7 @@ if __name__ == '__main__':
     r = requests.get(f'{config["HOSTNAME"]}/api/auth/c2c/token?jws={jws_token}')
     token = json.loads(r.text)['token']
     token_bs64 = base64.b64encode(token.encode()).decode()
-    print(token)
+    print(json.loads(r.text))
 
     ## Request
     # r = requests.get(

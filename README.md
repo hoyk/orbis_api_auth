@@ -1,7 +1,3 @@
-# **ORBIS API Auth**
-
----
-
 ## **Description**
 
 Orbis API JWT authentication.
@@ -14,8 +10,9 @@ Orbis API JWT authentication.
 
 ## **Installation**
 
+- Git https://git-scm.com/
 - Postman https://www.postman.com/downloads/
-- Studio Code https://code.visualstudio.com/download
+- VS Code https://code.visualstudio.com/download
 - NodeJS https://nodejs.org/en/
 - Python https://www.python.org/downloads/
 
@@ -51,7 +48,7 @@ ACCESSKEY = (public access key )
 
 - **Run script**
 
-  In JS folder, run `node orbisapi_c2c_auth.js`
+  In js folder, run `node orbisapi_c2c_auth.js`
 
 <br>
 
@@ -63,4 +60,4 @@ ACCESSKEY = (public access key )
 
 - **Run script**
 
-  In Python folder, run `python orbisapi_c2c_auth.py`
+  In python folder, run `python orbisapi_c2c_auth.py`
